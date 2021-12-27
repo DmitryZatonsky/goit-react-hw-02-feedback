@@ -1,13 +1,13 @@
 import { Container } from './App.styled';
-// import Section from './Components/Section/Section';
-import FeedbackOptions from './Components/FeedbackOptions/FeedbackOptions';
-import Statistics from './Components/Statistics/Statistics';
+import Section from './Components/Section/Section';
+import Logics from './Components/Logics/Logics';
 
 function App() {
   return (
     <Container>
-      <FeedbackOptions></FeedbackOptions>
-      <Statistics></Statistics>
+      <Section>
+        <Logics />
+      </Section>
     </Container>
   );
 }
